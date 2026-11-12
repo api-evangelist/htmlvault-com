@@ -1,4 +1,4 @@
-# htmlvault-com
+# HTMLvault
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-htmlvault-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://htmlvault.com/
+HTMLvault provides a platform for publishing AI‑generated content such as proposals, dashboards, and reports via private shareable links. Users can connect AI assistants like Claude, ChatGPT, or Anthropic to create, update, and track links, with analytics on views and interactions. The service supports multiple plans, including a free tier, and offers webhook integrations for event notifications. It targets sales, marketing, rev‑ops, customer success, and IT teams seeking to streamline AI‑driven content distribution.
+
+**Areas:** AI · Publishing · Links · SaaS · Automation
+
+## HTMLvault on APIs.io
+
+Everything profiled for HTMLvault is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/htmlvault-com/](https://apis.io/providers/htmlvault-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [HTMLvault API](https://apis.io/apis/htmlvault-com/htmlvault-api/) — API documented at https://htmlvault.com/docs, providing endpoints for publishing AI‑generated content, managing links, and webhooks.
+- [HTMLvault API](https://apis.io/apis/htmlvault-com/htmlvault-com-api/) — HTMLvault API as documented publicly: 4 operations. Contract generated from the documentation by API Evangelist (2026-11-11); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Htmlvault Com Webhooks](https://apis.io/asyncapis/htmlvault-com/htmlvault-com-webhooks/)
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [PostApiV1AssetsRequest](https://apis.io/schemas/htmlvault-com/htmlvault-com-post-api-v1-assets-request/)
+- [PostApiV1Assets4Fqk2Zpx9Lma7Brt1Vcw8ECompleteResponse](https://apis.io/schemas/htmlvault-com/htmlvault-com-post-api-v1-assets4-fqk2-zpx9-lma7-brt1-vcw8-ecomplete-response/)
+- [PostApiV1LinksDocumentRequest](https://apis.io/schemas/htmlvault-com/htmlvault-com-post-api-v1-links-document-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Htmlvault Com Context](https://apis.io/jsonld/htmlvault-com/htmlvault-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [HTMLvault API Rules](https://apis.io/rules/htmlvault-com/htmlvault-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [HTMLvault Domain Security](https://apis.io/security/htmlvault-com/htmlvault-com-domain-security/)
+- [HTMLvault Vulnerability Disclosure](https://apis.io/security/htmlvault-com/htmlvault-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [HTMLvault Plans Pricing](https://apis.io/plans/htmlvault-com/htmlvault-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://htmlvault.com/)
+- [Documentation](https://htmlvault.com/docs)
+- [Pricing](https://htmlvault.com/pricing)
+- [Blog](https://htmlvault.com/blog)
+- [Security](https://htmlvault.com/security)
+- [Terms of service](https://htmlvault.com/legal/terms)
+- [Privacy policy](https://htmlvault.com/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 47.7** — developing · rubric 0.27.0 · scored 2026-11-12
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 54.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 60.0 |
+
+**Agent readiness 35.7** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/htmlvault-com/](https://apis.io/providers/htmlvault-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for HTMLvault: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/htmlvault-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
